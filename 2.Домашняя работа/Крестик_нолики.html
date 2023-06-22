@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Крестики-Нолики</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .content {
+            display: flex;
+            margin: 100px 50px 50px 50px;
+            font-family: sans-serif;
+        }
+        #area {
+            width: 156px;
+            border: 1px solid blue;
+            margin: 0 auto;
+            font-size: 0;
+        }
+        .cell {
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            display: inline-block;
+            font-size: 26px;
+            border: 1px solid blue;
+            cursor: pointer;
+            vertical-align: middle;
+            transition: background .1s;
+            color:blue;
+        }
+            .cell:hover {
+                background-color:forestgreen;
+                color:red;
+            }
+        .currentPlayer {
+            width: 140px;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            color:blue;
+        }
+        h1 {
+            text-align: center;
+            color:cadetblue;
+            font-style:italic;
+        }
+        a{
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>КРЕСТИКИ-НОЛИКИ</h1>
+    <div>
+        <span><a id="image2-container"></a></span>
+        <a>Отдыхает</a>
+    </div>
+    <div class="content">   
+        <div id="area"></div>
+    </div>
+    <div class="currentPlayer">
+        <span><a id="image-container"></a>Ходит: <span id="curPlyr">X</span></span>
+    </div>
+    <script src="крестики-нолики.js"></script>
+</body>
+</html>
