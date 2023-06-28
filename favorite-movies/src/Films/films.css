@@ -1,0 +1,6 @@
+.films img{
+  width: 200px;
+  height: 200px;
+  white-space:nowrap;
+  padding: 10px 10px 10px 10px;
+}

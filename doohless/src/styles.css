@@ -1,0 +1,17 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  /* background: url("./Im2.jpg") no-repeat center center; */
+}
+h1 {
+  color: brown;
+}
+h2 {
+  color: blue;
+}
+ul {
+  color: darkblue;
+}
+.Im img {
+  width: 200px;
+}
